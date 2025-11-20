@@ -1,6 +1,8 @@
-package zsProterozoico;
+package zsVertebrado.zsProterozoico;
 
 public abstract class ZSAmniota extends ZSTetrapoda{
+    
+    //Refactorizacion:
     private String zsNombreAmniota;
 
     public String zsGetNombreAmniota() {
@@ -18,6 +20,8 @@ public abstract class ZSAmniota extends ZSTetrapoda{
 
         super(zsNombreAmniota);
         this.zsNombreAmniota = "Gnathostomata";
+
+        simularCargaSpinner();
         System.out.print("|*| ");
         System.out.print("-".repeat(4) + " ");
         System.out.println(zsNombreAmniota);

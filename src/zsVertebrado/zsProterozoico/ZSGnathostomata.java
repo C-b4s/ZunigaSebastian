@@ -1,8 +1,8 @@
-package zsProterozoico;
+package zsVertebrado.zsProterozoico;
 
 public abstract class ZSGnathostomata {
     
-    //Refactorizacion
+    //Refactorizacion:
     private String zsNombreGnathostomata;
 
     public String zsGetNombreGnathostomata() {
@@ -30,7 +30,7 @@ public abstract class ZSGnathostomata {
     //Refactorizacion:
     public void simularCargaSpinner(){
         int pasos = 100;
-        int milisegundos = 50;
+        int milisegundos = 35;
         char[] signos = {'\\','|', '/', '-','|'};
         
         for (int i = 0; i <= pasos; i++) {
@@ -43,5 +43,9 @@ public abstract class ZSGnathostomata {
             }
         }
         System.out.println("\nCarga Completa.");
+        System.out.print("\033[F");
+        System.out.print("\033[2K");
+        System.out.print("\033[F");
+        System.out.print("\033[2K\r");
     }
 }   

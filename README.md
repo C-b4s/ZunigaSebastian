@@ -1,18 +1,16 @@
-## Getting Started
+# Escuela Politécnica Nacional
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Programación II - Prueba Parcial II
 
-## Folder Structure
+**Autor:** Zúñiga Sebastián
+**Paralelo:** GR2SW
+**Cedula:** 1727915942
+**Fecha:** 19 de noviembre de 2025
 
-The workspace contains two folders by default, where:
+## Descripción del proyecto
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+En el presente proyecto, se ha programado el sistema informático para el análisis de la evolución y clasificación de vertebrados, solicitado por la empresa rusa BIOTECH-2K25. El sistema permite visualizar una línea de tiempo geológico de las especies de vertebrados en los periodos Proterozoico y Fanerozoico. Además, se mostrará el nombre y los saludos dados por la rana "Saltitos", perteneciente al paquete de anfibios. Finalmente, se ha incorporado una funcionalidad para mutar a la rana "Saltitos" en una nueva especie llamada "FrogZuniga", realizado por una Inteligencia Artificial.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Link del repositorio en GitHub
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+https://github.com/C-b4s/ZunigaSebastian.git

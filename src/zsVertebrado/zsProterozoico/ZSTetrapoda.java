@@ -1,8 +1,8 @@
-package zsProterozoico;
+package zsVertebrado.zsProterozoico;
 
 public abstract class ZSTetrapoda extends ZSSarcopterygii{
 
-    //Refactorizacion
+    //Refactorizacion:
     private String zsNombreTetrapoda;
 
     public String zsGetNombreTetrapoda() {
@@ -18,11 +18,14 @@ public abstract class ZSTetrapoda extends ZSSarcopterygii{
 
     public ZSTetrapoda (String zsNombreTetrapoda){
 
-        super(zsNombreTetrapoda);
+        super("Sarcopterygii");
         this.zsNombreTetrapoda = "Tetrapoda";
+
+        simularCargaSpinner();
         System.out.print("|*| ");
         System.out.print("-".repeat(28) + " ");
         System.out.println(zsNombreTetrapoda);
+        System.out.println("_".repeat(42));
     }
 
 

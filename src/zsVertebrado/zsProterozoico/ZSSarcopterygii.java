@@ -1,8 +1,8 @@
-package zsProterozoico;
+package zsVertebrado.zsProterozoico;
 
 public abstract class ZSSarcopterygii extends ZSOsteichthyes{
 
-    //Refactorizacion
+    //Refactorizacion:
     private String zsNombreSarcopterygii;
 
     public String getZsNombreSarcopterygii() {
@@ -18,8 +18,10 @@ public abstract class ZSSarcopterygii extends ZSOsteichthyes{
 
     public ZSSarcopterygii (String zsNombreSarcopterygii){
 
-        super(zsNombreSarcopterygii);
+        super("Osteichthyes");
         this.zsNombreSarcopterygii = "Sarcopterygii";
+
+        simularCargaSpinner();
         System.out.print("|*| ");
         System.out.print("-".repeat(20) + " ");
         System.out.println(zsNombreSarcopterygii);

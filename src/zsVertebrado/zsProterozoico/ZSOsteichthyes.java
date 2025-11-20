@@ -1,8 +1,8 @@
-package zsProterozoico;
+package zsVertebrado.zsProterozoico;
 
 public abstract class ZSOsteichthyes extends ZSGnathostomata {
     
-    //Refactorizacion
+    //Refactorizacion:
     private String zsNombreOsteichthyes;
 
     public String zsGetNombreOsteichthyes() {
@@ -17,8 +17,12 @@ public abstract class ZSOsteichthyes extends ZSGnathostomata {
     }
 
     public ZSOsteichthyes (String zsNombreOsteichthyes){
-        super(zsNombreOsteichthyes);
+        
+        super("Gnathostomata");
         this.zsNombreOsteichthyes = "Osteichthyes";
+
+        simularCargaSpinner();
+        
         System.out.print("|*| ");
         System.out.print("-".repeat(12) + " ");
         System.out.println(zsNombreOsteichthyes);
