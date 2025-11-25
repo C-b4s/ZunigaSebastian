@@ -4,7 +4,6 @@ import java.util.Random;
 import java.util.Scanner;
 
 import zsVertebrado.zsFanerozoico.zsAmphibian.Frog;
-import zsVertebrado.zsMutacion.ZSFrogsZuniga;
 import zsVertebrado.zsMutacion.ZSTanqueMutacion;
 
 //Refactorizacion:

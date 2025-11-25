@@ -3,8 +3,11 @@
 ## Programación II - Prueba Parcial II
 
 **Autor:** Zúñiga Sebastián
+
 **Paralelo:** GR2SW
+
 **Cedula:** 1727915942
+
 **Fecha:** 19 de noviembre de 2025
 
 ## Descripción del proyecto
@@ -13,4 +16,4 @@ En el presente proyecto, se ha programado el sistema informático para el análi
 
 ## Link del repositorio en GitHub
 
-https://github.com/C-b4s/ZunigaSebastian.git
+<https://github.com/C-b4s/ZunigaSebastian.git>
